@@ -2,7 +2,7 @@ const Registration = (props) => {
 
     return (
         <div className="form-modal">
-            <div className="title-modal">Регистрация</div>
+            <div className="title-modal">registration</div>
             <form>
                 <div>
                     <label htmlFor="login"></label>

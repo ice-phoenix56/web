@@ -37,15 +37,15 @@ const Main = (props) => {
 
     return (
         <div className="container center-flex">
-            Главная страница
+            
             <div onClick={() => openModal('authorization')}>
-                <Button text='Авторизация' />
+                <Button text='authorization' />
             </div>
             <div onClick={() => openModal('registration')}>
-                <Button text='Регистрация' />
+                <Button text='registration' />
             </div>
             <div>
-                <Button text='Восстановление пароля' />
+                <Button text='recover password' />
             </div>
             
             <Modal modal={modalState}/>

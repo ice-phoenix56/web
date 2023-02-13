@@ -2,7 +2,7 @@ const Authorization = (props) => {
 
     return (
         <div className="form-modal">
-            <div className="title-modal">Авторизация</div>
+            <div className="title-modal">authorization</div>
             <form>
                 <div>
                     <label htmlFor="login"></label>

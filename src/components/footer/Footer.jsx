@@ -1,7 +1,7 @@
 const Footer = (Props) => {
     return (
         <footer>
-            Футер
+            smth
         </footer>
     );
 };

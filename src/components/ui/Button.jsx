@@ -1,7 +1,7 @@
 const Button = (props) => {
 
     return (
-        <button className="button-green">
+        <button className="button-pink">
            {props.text && <span>{props.text}</span>}
         </button>
     );

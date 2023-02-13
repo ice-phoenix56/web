@@ -1,7 +1,7 @@
 const Header = (Props) => {
     return (
         <header>
-            Шапка сайта
+           smth 
         </header>
     );
 };
