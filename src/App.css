@@ -32,9 +32,10 @@ header, footer {
     width: 400px;
     z-index: 4;
     background-color: white;
-    min-height: 300px;
+    height: 794px;
     opacity: 1;
     display: flex;
+    
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -42,8 +43,20 @@ header, footer {
 .title-modal {
     text-align: center;
     font-weight: 600;
-    font-size: 20px;
-    margin-bottom: 20px;
+    margin-top: -20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+
+  
+
+    
+
+/* identical to box height */
+
+text-align: center;
 }
 .modal-container form {
     margin: 20px 0px;
@@ -56,9 +69,14 @@ header, footer {
 .center-flex {
     display: flex;
     align-items: center;
+
     flex-direction: row;
     margin-top: -270px;
     margin-right: -900px;
+
+    flex-direction: column;
+    margin-bottom: 25px;  
+
 }
 .button-pink {
    
@@ -75,6 +93,28 @@ header, footer {
     
 
 }
-.button-pink:hover {
-    background-color: #d408cd;
+
+input{
+    display: flex;
+    margin-bottom: 20px;
+    height: 30px; 
+    width: 300px;
+    border-radius: 3px;
+    
+}
+input[type="submit" i]{
+    height: 30px;
+    color: white;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    border-radius: 3px;
+     
+}
+
+h3{
+    color: black;
+    margin: 0;
+    padding: 0;
+
 }

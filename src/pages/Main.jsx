@@ -47,6 +47,9 @@ const Main = (props) => {
             <div>
                 <Button text='recover password' />
             </div>
+
+           
+
             
             <Modal modal={modalState}/>
         </div>
