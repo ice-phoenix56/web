@@ -3,7 +3,7 @@ import Main from '../pages/Main.jsx'
   
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: `${import.meta.env.BASE_URL}/`,
     element: <Main />
   },
 ]);
