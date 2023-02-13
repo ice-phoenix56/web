@@ -1,9 +1,11 @@
 import {createBrowserRouter} from "react-router-dom";
 import Main from '../pages/Main.jsx'
+
+const path = (import.meta.env.PROD)? '/shop-template' : ''
   
 const router = createBrowserRouter([
   {
-    path: `${import.meta.env.BASE_URL}/`,
+    path: `${path}/`,
     element: <Main />
   },
 ]);
